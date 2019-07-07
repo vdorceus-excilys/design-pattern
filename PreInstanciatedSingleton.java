@@ -1,9 +1,9 @@
-public class Singleton {
-  static private final Singleton instance = new Singleton();
+public class PreInstanciatedSingleton {
+  static private final PreInstanciatedSingleton instance = new PreInstanciatedSingleton();
   private Singleton(){
   }
   
-  static public Singleton getInstance(){
+  static public PreInstanciatedSingleton getInstance(){
     return Singleton.instance;    
   }
   
